@@ -2,6 +2,6 @@ stages:
 - name: deploy
   steps:
   - applyYamlConfig:
-      path: ./arm64-deployment.yaml
+      path: ./samplemodel.yml
 timeout: 60
 notification: {}
